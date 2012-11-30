@@ -1,0 +1,97 @@
+@font-face {
+    font-family:'LeagueGothicRegular';
+    src:url('../fonts/League_Gothic-webfont.eot');
+    src:url('../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+	background:#1a1a1a;
+	color:#c9c9c9;
+	font-size:0.875em;
+	line-height:26px;	
+	font-family:"LeagueGothicRegular", Tahoma, Helvetica, Arial, sans-serif;
+	font-size:22px;
+}
+
+#container {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1, h2, h3, h4 {
+	font-family:"LeagueGothicRegular";
+	color:#b1d81c;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+h1 {
+	font-size:56px;
+	line-height:64px;
+}
+
+h2 {
+	font-size:48px;
+	line-height:48px;
+	color:#fff;
+}
+
+h3 {
+	font-size:36px;
+	line-height:36px;
+}
+
+h4 {
+	font-size:30px;
+	line-height:36px;
+}
+
+p {	
+	color:#c9c9c9;
+	font-size:0.875em;
+	line-height:26px;	
+}
+
+a {
+	font-family:"LeagueGothicRegular";
+	color:#72b6fa;
+	text-decoration:none
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+hr {
+	display:block;
+	height:1px;
+	margin:35px 0 20px;
+	background:none;
+	border:none;
+	border-top:#333 1px solid;
+}
+
+#test-a, #test-a h1, #test-a h2, #test-a h3, #test-a h4, #test-a p, #test-a a {
+	text-shadow: 1px 1px 1px rgba(26,26,26,0.004) !important;
+}
+
+#test-b, #test-b h1, #test-b h2, #test-b h3, #test-b h4, #test-b p, #test-b a {
+	font-smooth: always !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#test-c, #test-c h1, #test-c h2, #test-c h3, #test-c h4, #test-c p, #test-c a {
+	font-smooth: always !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+#test-d, #test-d h1, #test-d h2, #test-d h3, #test-d h4, #test-d p, #test-d a {	
+    -webkit-font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(26,26,26,0.004);
+}
